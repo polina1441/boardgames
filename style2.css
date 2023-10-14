@@ -43,14 +43,40 @@ p{
     margin-bottom: 2px;
 }
 .text{
+    font-weight: 600;
     margin-top: 6px;
-    max-width: 220px;
+    max-width: 260px;
     min-width: 220px;
+}
+.chip{
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 .desc{
     font-size: 14px;
     color: grey;
+    margin-bottom: 22px;
     line-height: 24px;
+    font-weight: 200;
+}
+.text-small{
+    font-weight: 600;
+    margin-top: 6px;
+    max-width: 220px;
+    min-width: 220px;
+}
+.chip{
+    padding: 6px 0;
+}
+.chip p{
+    display: inline-block;
+    width: 90%;
+    font-weight: 200;
+    margin: 0;
+}
+.chip img{
+    margin:  -6px 2px;
+    display: inline-block;
 }
 .cont{
     /*width: 100%;*/
@@ -70,9 +96,9 @@ p{
 }
 .btn-big{
     display: inline-block;
-    width: 200px;
+    width: 280px;
     height: 36px;
-    padding: 6px 40% 4px 6px;
+    padding: 6px 50% 4px 6px;
     border: none;
     margin: 2px;
     float: right;
@@ -83,7 +109,7 @@ p{
     transition: background .2s linear;
 }
 .btnI{
-    background: rgb(180, 180, 180);
+    background: rgb(64, 204, 81);
 }
 
 .btn:hover, .btn-big:hover{
