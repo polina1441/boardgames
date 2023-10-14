@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 390px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.inner {
+    float: left;
+    display: block;
+    max-width: 370px;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: 200px 200px 200px;*/
+}
+
+.img {
+    width: 80px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.item {
+    max-width: 360px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.text{
+    margin-top: 6px;
+    max-width: 220px;
+    min-width: 220px;
+}
+.desc{
+    font-size: 16px;
+    color: grey;
+    margin-top: 6px;
+    line-height: 22px;
+}
+
+.btn {
+    display: block;
+    padding: 6px 6px;
+    border: none;
+    margin: 2px;
+    float: right;
+    background: rgb(26, 164, 255);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    transition: background .2s linear;
+}
+
+.btn:hover {
+    background: #FFC372;
+}
+
+.usercard {
+    text-align: center;
+}
+.bblock {
+    float: left; /*Задаем обтекание*/
+    line-height: 22px;/*Высота строки + верт. центрирования текста*/
+    font-size: 20px;
+    /*width: 60px; !*Фиксируем ширину блока*!*/
+    margin-right: 10px;
+    text-align: left; /*Центрируем текст по горизонтали*/ }
+.wrap :last-child {
+    margin-right: 0px;/*Убираем поле последнего div-а*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{*/
+/*    color: var(--tg-theme-text-color);*/
+/*    background: var(--tg-theme-bg-color);*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.hint{*/
+/*    color: var(--tg-theme-hint-color);*/
+/*}*/
+
+/*.link{*/
+/*    color: var(--tg-theme-link-color);*/
+/*}*/
+
+/*.button{*/
+/*    background: var(--tg-theme-button-color);*/
+/*    color: var(--tg-theme-button-text-color);*/
+/*    border: none;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.button:not(:last-child){*/
+/*    margin-bottom: 20px*/
+/*}*/
+
+/*#usercard{*/
+/*    text-align: center;*/
+/*}*/
