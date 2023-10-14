@@ -19,7 +19,8 @@ btn1.addEventListener("click", function(){
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("Вы выбрали товар 1!");
+        tg.MainButton.setText("Моя корзина");
+        // tg.MainButton.setText("");
         item = "1";
         tg.MainButton.show();
     }
